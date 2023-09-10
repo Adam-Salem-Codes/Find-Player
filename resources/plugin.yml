@@ -1,0 +1,8 @@
+name: server
+version: "${project.version}"
+main: org.adamsalem.untitled.Server
+api-version: 1.20
+commands:
+  findplayer:
+    usage: /findplayer playername
+    description: Gives players coordinates to make it easier to find people.
